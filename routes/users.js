@@ -6,7 +6,7 @@ var times=0;
 router.get('/', function(req, res, next) {
   
   times=times+1;
-  res.send('user access are:'+times);
+  res.send('user accesses are:'+times);
 
 });
 

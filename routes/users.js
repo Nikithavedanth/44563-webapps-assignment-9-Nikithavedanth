@@ -5,8 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   var times=0;
 
-  res.send('user access are:'+times);
+ 
   times=times+1;
+  res.send('user access are:'+times);
 
 });
 
